@@ -1,0 +1,13 @@
+# Regenerated from the seeded configurations (large): model checkpoints,
+# cached features, downloaded datasets.
+checkpoints/
+features/
+data/*
+!data/depth_strip.npz
+# GPL-licensed reference implementation, cloned at setup (see vendor/README.md).
+vendor/Mixup-SoCG26/
+# Slurm logs and Python caches.
+cluster/logs/
+__pycache__/
+*.pyc
+.DS_Store

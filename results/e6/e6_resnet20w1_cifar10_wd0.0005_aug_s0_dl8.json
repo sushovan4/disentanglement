@@ -1,0 +1,11 @@
+{
+ "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s0_dl8",
+ "dis_lambda": 8.0,
+ "seed": 0,
+ "test_acc": 0.1,
+ "robust_acc": 0.10000000000000002,
+ "penult_quotient": null,
+ "penult_certified": 0,
+ "n_pairs": 45,
+ "degenerate": "collapsed: 1 distinct feature vectors"
+}

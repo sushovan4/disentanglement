@@ -1,0 +1,11 @@
+{
+ "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1_dl0.5",
+ "dis_lambda": 0.5,
+ "seed": 1,
+ "test_acc": 0.9129,
+ "robust_acc": 0.8006666666666667,
+ "penult_quotient": 0.23722018245358506,
+ "penult_certified": 45,
+ "n_pairs": 45,
+ "degenerate": null
+}

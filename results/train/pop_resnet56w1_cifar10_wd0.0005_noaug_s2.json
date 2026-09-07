@@ -1,0 +1,22 @@
+{
+ "name": "pop_resnet56w1_cifar10_wd0.0005_noaug_s2",
+ "config": {
+  "tag": "pop",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 56,
+  "width": 1,
+  "weight_decay": 0.0005,
+  "augment": false,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 2,
+  "dense_checkpoints": false
+ },
+ "test_acc": 0.872,
+ "train_acc": 1.0,
+ "gen_gap": 0.128,
+ "minutes": 14.181955790519714,
+ "device": "cuda"
+}

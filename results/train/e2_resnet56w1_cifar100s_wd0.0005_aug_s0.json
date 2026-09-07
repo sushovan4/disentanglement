@@ -1,0 +1,22 @@
+{
+ "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+ "config": {
+  "tag": "e2",
+  "arch": "resnet",
+  "dataset": "cifar100s",
+  "depth": 56,
+  "width": 1,
+  "weight_decay": 0.0005,
+  "augment": true,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 0,
+  "dense_checkpoints": false
+ },
+ "test_acc": 0.696,
+ "train_acc": 0.9978,
+ "gen_gap": 0.30180000000000007,
+ "minutes": 1.6292810996373495,
+ "device": "cuda"
+}

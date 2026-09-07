@@ -1,0 +1,22 @@
+{
+ "name": "pop_resnet44w2_cifar10_wd0_aug_s2",
+ "config": {
+  "tag": "pop",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 44,
+  "width": 2,
+  "weight_decay": 0.0,
+  "augment": true,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 2,
+  "dense_checkpoints": false
+ },
+ "test_acc": 0.9025,
+ "train_acc": 0.99966,
+ "gen_gap": 0.09716000000000002,
+ "minutes": 18.639543934663138,
+ "device": "cuda"
+}

@@ -1,0 +1,12 @@
+# Core measurement (E1, E4 calibration, aggregation, figures): CPU only.
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+gudhi>=3.8
+matplotlib>=3.7
+# Training and feature extraction (E2, E3, E5, E6, E9, E11).
+torch>=2.0
+torchvision>=0.15
+# Frozen language models and text corpora (E10, Appendix A.5).
+transformers>=4.30
+datasets>=2.14

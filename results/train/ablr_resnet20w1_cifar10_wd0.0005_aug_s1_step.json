@@ -1,0 +1,25 @@
+{
+ "name": "ablr_resnet20w1_cifar10_wd0.0005_aug_s1_step",
+ "config": {
+  "tag": "ablr",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 20,
+  "width": 1,
+  "weight_decay": 0.0005,
+  "augment": true,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 1,
+  "dense_checkpoints": true,
+  "objective": "ce",
+  "lr_schedule": "step",
+  "pretrained": false
+ },
+ "test_acc": 0.9145,
+ "train_acc": 0.98376,
+ "gen_gap": 0.06925999999999999,
+ "minutes": 9.870589045683543,
+ "device": "cuda"
+}

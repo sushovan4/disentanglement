@@ -1,0 +1,25 @@
+{
+ "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+ "config": {
+  "tag": "vitpre",
+  "arch": "vit_b16",
+  "dataset": "cifar10",
+  "depth": 12,
+  "width": 1,
+  "weight_decay": 0.0001,
+  "augment": true,
+  "lr": 0.0001,
+  "epochs": 8,
+  "batch_size": 64,
+  "seed": 0,
+  "dense_checkpoints": false,
+  "objective": "ce",
+  "lr_schedule": "cosine",
+  "pretrained": true
+ },
+ "test_acc": 0.9783,
+ "train_acc": 0.9999,
+ "gen_gap": 0.021600000000000064,
+ "minutes": 73.92454026142757,
+ "device": "cuda"
+}

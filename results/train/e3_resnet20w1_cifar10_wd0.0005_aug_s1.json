@@ -1,0 +1,22 @@
+{
+ "name": "e3_resnet20w1_cifar10_wd0.0005_aug_s1",
+ "config": {
+  "tag": "e3",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 20,
+  "width": 1,
+  "weight_decay": 0.0005,
+  "augment": true,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 1,
+  "dense_checkpoints": true
+ },
+ "test_acc": 0.9193,
+ "train_acc": 0.98798,
+ "gen_gap": 0.06867999999999996,
+ "minutes": 10.695505253473918,
+ "device": "cuda"
+}

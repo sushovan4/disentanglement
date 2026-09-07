@@ -1,0 +1,19 @@
+{
+ "model": "vit_b16_in1k",
+ "layer": "penult",
+ "classes": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "cap": 60,
+ "onsets": {
+  "2": 7.690140518631235
+ },
+ "info": {
+  "pairs_considered": 36000,
+  "aborted_order_3": 2000001
+ }
+}

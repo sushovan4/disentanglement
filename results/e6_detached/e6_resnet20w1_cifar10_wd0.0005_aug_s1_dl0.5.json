@@ -1,0 +1,32 @@
+{
+ "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1_dl0.5",
+ "config": {
+  "tag": "e6",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 20,
+  "width": 1,
+  "weight_decay": 0.0005,
+  "augment": true,
+  "lr": 0.1,
+  "epochs": 80,
+  "batch_size": 128,
+  "seed": 1,
+  "dense_checkpoints": false,
+  "objective": "ce",
+  "lr_schedule": "cosine",
+  "pretrained": false,
+  "dis_lambda": 0.5
+ },
+ "test_acc": 0.9122,
+ "train_acc": 0.9691,
+ "gen_gap": 0.05689999999999995,
+ "minutes": 10.341302975018818,
+ "device": "cuda",
+ "robust_acc": 0.8116,
+ "robust_by_sigma": {
+  "sigma0.05": 0.9009,
+  "sigma0.1": 0.8589,
+  "sigma0.2": 0.675
+ }
+}

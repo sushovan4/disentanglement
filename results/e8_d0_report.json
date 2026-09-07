@@ -1,0 +1,542 @@
+[
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 3,
+  "mean_q": 0.8599199576431465,
+  "certified": 30,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.6888010540184453
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 3,
+  "mean_q": 0.8186076061596516,
+  "certified": 40,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.6114624505928854
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 3,
+  "mean_q": 0.7936327385762698,
+  "certified": 36,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8231884057971014
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 3,
+  "mean_q": 0.14202100672160137,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8110671936758892
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 3,
+  "mean_q": 0.14206316257531867,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8125164690382081
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 4,
+  "mean_q": 0.8342249174503048,
+  "certified": 33,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8270092226613964
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 4,
+  "mean_q": 0.830521374873265,
+  "certified": 37,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.7451910408432147
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 4,
+  "mean_q": 0.7802853117199953,
+  "certified": 38,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8661396574440051
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 4,
+  "mean_q": 0.08931379586744287,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9035573122529643
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 4,
+  "mean_q": 0.08923806926270786,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9110671936758893
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 6,
+  "mean_q": 0.7827865374716247,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9520421607378128
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 6,
+  "mean_q": 0.7885975218235862,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8683794466403162
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 6,
+  "mean_q": 0.6705672830710867,
+  "certified": 44,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8918313570487483
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 6,
+  "mean_q": 0.04910161633494463,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8831357048748352
+ },
+ {
+  "name": "e2_resnet56w1_cifar100s_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 6,
+  "mean_q": 0.04909317335134475,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8855072463768114
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 3,
+  "mean_q": 0.7514751163234498,
+  "certified": 41,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9710144927536231
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 3,
+  "mean_q": 0.6826918287001621,
+  "certified": 40,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9143610013175228
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 3,
+  "mean_q": 0.5803169311342723,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9500658761528326
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 3,
+  "mean_q": 0.21855062468214453,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9035573122529643
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 3,
+  "mean_q": 0.21864685945526693,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9063241106719366
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 4,
+  "mean_q": 0.7237735038222466,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9873517786561263
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 4,
+  "mean_q": 0.6373955772866152,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9735177865612648
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 4,
+  "mean_q": 0.5621719727816283,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9762845849802371
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 4,
+  "mean_q": 0.18402101633342569,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9677206851119894
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 4,
+  "mean_q": 0.1842349893949239,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9673254281949933
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stem",
+  "d0": 6,
+  "mean_q": 0.7152536031859001,
+  "certified": 43,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9918313570487481
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage1",
+  "d0": 6,
+  "mean_q": 0.6006773249366643,
+  "certified": 43,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9545454545454544
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage2",
+  "d0": 6,
+  "mean_q": 0.5530707223775817,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9799736495388669
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "stage3",
+  "d0": 6,
+  "mean_q": 0.16337055798757433,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9682476943346509
+ },
+ {
+  "name": "e2_resnet56w1_cifar10_wd0.0005_aug_s0",
+  "layer": "penult",
+  "d0": 6,
+  "mean_q": 0.16304712768695612,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9677206851119894
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block2",
+  "d0": 3,
+  "mean_q": 0.6582739741317998,
+  "certified": 41,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.897760210803689
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block4",
+  "d0": 3,
+  "mean_q": 0.46701852524994497,
+  "certified": 44,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9592885375494069
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block6",
+  "d0": 3,
+  "mean_q": 0.4227430607053736,
+  "certified": 43,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9318840579710144
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block8",
+  "d0": 3,
+  "mean_q": 0.3911981969573276,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9047430830039525
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "penult",
+  "d0": 3,
+  "mean_q": 0.4441851780679301,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9354413702239789
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block2",
+  "d0": 4,
+  "mean_q": 0.6603644105375867,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9279314888010538
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block4",
+  "d0": 4,
+  "mean_q": 0.43596735286619775,
+  "certified": 44,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9610013175230566
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block6",
+  "d0": 4,
+  "mean_q": 0.3879564118120952,
+  "certified": 43,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9173913043478259
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block8",
+  "d0": 4,
+  "mean_q": 0.32537754503866206,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9819499341238472
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "penult",
+  "d0": 4,
+  "mean_q": 0.3996808451765187,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9715415019762844
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block2",
+  "d0": 6,
+  "mean_q": 0.6646243305782877,
+  "certified": 43,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9723320158102765
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block4",
+  "d0": 6,
+  "mean_q": 0.40423555554294405,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9820816864295123
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block6",
+  "d0": 6,
+  "mean_q": 0.296840121815744,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9654808959156784
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "block8",
+  "d0": 6,
+  "mean_q": 0.2880960006279814,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9658761528326746
+ },
+ {
+  "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+  "layer": "penult",
+  "d0": 6,
+  "mean_q": 0.38026762358017147,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9316205533596837
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block3",
+  "d0": 3,
+  "mean_q": 0.6857447435714077,
+  "certified": 40,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9629776021080367
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block6",
+  "d0": 3,
+  "mean_q": 0.5423117231231824,
+  "certified": 42,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9657444005270092
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block9",
+  "d0": 3,
+  "mean_q": 0.23100330298203206,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9304347826086955
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block12",
+  "d0": 3,
+  "mean_q": 0.20426569107729814,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.564558629776021
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "penult",
+  "d0": 3,
+  "mean_q": 0.1515640428002861,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9536231884057971
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block3",
+  "d0": 4,
+  "mean_q": 0.6868244213429407,
+  "certified": 40,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9602108036890645
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block6",
+  "d0": 4,
+  "mean_q": 0.5325681197029872,
+  "certified": 44,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9816864295125164
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block9",
+  "d0": 4,
+  "mean_q": 0.15926771335765594,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9650856389986824
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block12",
+  "d0": 4,
+  "mean_q": 0.15957948464549215,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.8649538866930171
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "penult",
+  "d0": 4,
+  "mean_q": 0.15370742022360873,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.979710144927536
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block3",
+  "d0": 6,
+  "mean_q": 0.6386191878550951,
+  "certified": 41,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.970619235836627
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block6",
+  "d0": 6,
+  "mean_q": 0.527420429806069,
+  "certified": 44,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9764163372859024
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block9",
+  "d0": 6,
+  "mean_q": 0.12382513694734268,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.983794466403162
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "block12",
+  "d0": 6,
+  "mean_q": 0.13270183914833475,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9524374176548089
+ },
+ {
+  "name": "vitpre_vit_b1612w1_cifar10_wd0.0001_aug_s0",
+  "layer": "penult",
+  "d0": 6,
+  "mean_q": 0.1340966966129848,
+  "certified": 45,
+  "n_pairs": 45,
+  "spearman_vs_d05": 0.9554677206851118
+ }
+]

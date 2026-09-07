@@ -1,0 +1,133 @@
+{
+ "n_models": 96,
+ "results": [
+  {
+   "family": "ecp",
+   "n": 96,
+   "loo_r2": 0.3371493032396191,
+   "spearman": 0.6547453523302545,
+   "n_features": 16,
+   "target": "test_acc"
+  },
+  {
+   "family": "baselines",
+   "n": 96,
+   "loo_r2": 0.9871551306710744,
+   "spearman": 0.9927427614360286,
+   "n_features": 15,
+   "target": "test_acc"
+  },
+  {
+   "family": "ecp+baselines",
+   "n": 96,
+   "loo_r2": 0.9847611503515737,
+   "spearman": 0.9926545893784301,
+   "n_features": 31,
+   "target": "test_acc"
+  },
+  {
+   "family": "ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9354983242998338,
+   "spearman": 0.962730349522615,
+   "n_features": 15,
+   "target": "test_acc"
+  },
+  {
+   "family": "ecp+ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9251982168796918,
+   "spearman": 0.9555612829932415,
+   "n_features": 31,
+   "target": "test_acc"
+  },
+  {
+   "family": "baselines+ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9883322466834493,
+   "spearman": 0.9936923066717073,
+   "n_features": 30,
+   "target": "test_acc"
+  },
+  {
+   "family": "total-mixup",
+   "n": 96,
+   "loo_r2": 0.8410372591340254,
+   "spearman": 0.9083756672459831,
+   "n_features": 10,
+   "target": "test_acc"
+  },
+  {
+   "family": "baselines+total-mixup",
+   "n": 96,
+   "loo_r2": 0.9870462363827329,
+   "spearman": 0.9927291965040904,
+   "n_features": 25,
+   "target": "test_acc"
+  },
+  {
+   "family": "ecp",
+   "n": 96,
+   "loo_r2": 0.3404096983193742,
+   "spearman": 0.6622490504612045,
+   "n_features": 16,
+   "target": "gen_gap"
+  },
+  {
+   "family": "baselines",
+   "n": 96,
+   "loo_r2": 0.9811220292183793,
+   "spearman": 0.9896500271296799,
+   "n_features": 15,
+   "target": "gen_gap"
+  },
+  {
+   "family": "ecp+baselines",
+   "n": 96,
+   "loo_r2": 0.9792530278685694,
+   "spearman": 0.9887276180141075,
+   "n_features": 31,
+   "target": "gen_gap"
+  },
+  {
+   "family": "ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9182782323992995,
+   "spearman": 0.9549104720564296,
+   "n_features": 15,
+   "target": "gen_gap"
+  },
+  {
+   "family": "ecp+ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9058094227383862,
+   "spearman": 0.9458355941399892,
+   "n_features": 31,
+   "target": "gen_gap"
+  },
+  {
+   "family": "baselines+ecp-raw",
+   "n": 96,
+   "loo_r2": 0.9789275750901832,
+   "spearman": 0.9871812262615302,
+   "n_features": 30,
+   "target": "gen_gap"
+  },
+  {
+   "family": "total-mixup",
+   "n": 96,
+   "loo_r2": 0.8175453132498098,
+   "spearman": 0.898548562126967,
+   "n_features": 10,
+   "target": "gen_gap"
+  },
+  {
+   "family": "baselines+total-mixup",
+   "n": 96,
+   "loo_r2": 0.98106542996206,
+   "spearman": 0.9896907216494846,
+   "n_features": 25,
+   "target": "gen_gap"
+  }
+ ]
+}

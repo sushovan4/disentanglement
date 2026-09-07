@@ -1,0 +1,22 @@
+{
+ "name": "e2_vit8w1_cifar10_wd0.05_aug_s0",
+ "config": {
+  "tag": "e2",
+  "arch": "vit",
+  "dataset": "cifar10",
+  "depth": 8,
+  "width": 1,
+  "weight_decay": 0.05,
+  "augment": true,
+  "lr": 0.001,
+  "epochs": 100,
+  "batch_size": 128,
+  "seed": 0,
+  "dense_checkpoints": false
+ },
+ "test_acc": 0.7726,
+ "train_acc": 0.9991,
+ "gen_gap": 0.22650000000000003,
+ "minutes": 23.00381311972936,
+ "device": "cuda"
+}

@@ -1,0 +1,114 @@
+{
+ "per_model": [
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s0",
+   "dis_lambda": 0.0,
+   "seed": 0,
+   "test_acc": 0.9195,
+   "robust_acc": 0.7812,
+   "penult_quotient": 0.15596828350434352,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1",
+   "dis_lambda": 0.0,
+   "seed": 1,
+   "test_acc": 0.9202,
+   "robust_acc": 0.7966666666666665,
+   "penult_quotient": 0.16282314783079802,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s0_dl0.5",
+   "dis_lambda": 0.5,
+   "seed": 0,
+   "test_acc": 0.9137,
+   "robust_acc": 0.7833333333333333,
+   "penult_quotient": 0.2127252363331166,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1_dl0.5",
+   "dis_lambda": 0.5,
+   "seed": 1,
+   "test_acc": 0.917,
+   "robust_acc": 0.7803333333333334,
+   "penult_quotient": 0.21218198201322405,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s0_dl2",
+   "dis_lambda": 2.0,
+   "seed": 0,
+   "test_acc": 0.9058,
+   "robust_acc": 0.7695,
+   "penult_quotient": 0.2862627154595225,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1_dl2",
+   "dis_lambda": 2.0,
+   "seed": 1,
+   "test_acc": 0.9079,
+   "robust_acc": 0.7719333333333332,
+   "penult_quotient": 0.270561400295396,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s0_dl8",
+   "dis_lambda": 8.0,
+   "seed": 0,
+   "test_acc": 0.8702,
+   "robust_acc": 0.7272333333333334,
+   "penult_quotient": 0.34197259079888986,
+   "penult_certified": 45,
+   "n_pairs": 45
+  },
+  {
+   "name": "e6_resnet20w1_cifar10_wd0.0005_aug_s1_dl8",
+   "dis_lambda": 8.0,
+   "seed": 1,
+   "test_acc": 0.8598,
+   "robust_acc": 0.7256666666666667,
+   "penult_quotient": 0.34612685089548695,
+   "penult_certified": 45,
+   "n_pairs": 45
+  }
+ ],
+ "by_lambda": [
+  {
+   "dis_lambda": 0.0,
+   "n_seeds": 2,
+   "test_acc": 0.9198500000000001,
+   "robust_acc": 0.7889333333333333,
+   "penult_quotient": 0.15939571566757077
+  },
+  {
+   "dis_lambda": 0.5,
+   "n_seeds": 2,
+   "test_acc": 0.91535,
+   "robust_acc": 0.7818333333333334,
+   "penult_quotient": 0.21245360917317033
+  },
+  {
+   "dis_lambda": 2.0,
+   "n_seeds": 2,
+   "test_acc": 0.90685,
+   "robust_acc": 0.7707166666666666,
+   "penult_quotient": 0.27841205787745926
+  },
+  {
+   "dis_lambda": 8.0,
+   "n_seeds": 2,
+   "test_acc": 0.865,
+   "robust_acc": 0.72645,
+   "penult_quotient": 0.34404972084718843
+  }
+ ]
+}

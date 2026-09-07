@@ -1,0 +1,27 @@
+{
+ "name": "e10_resnet20w1_cifar10_wd0_noaug_s0_randlab",
+ "config": {
+  "tag": "e10",
+  "arch": "resnet",
+  "dataset": "cifar10",
+  "depth": 20,
+  "width": 1,
+  "weight_decay": 0.0,
+  "augment": false,
+  "lr": 0.1,
+  "epochs": 150,
+  "batch_size": 128,
+  "seed": 0,
+  "dense_checkpoints": false,
+  "objective": "ce",
+  "lr_schedule": "cosine",
+  "pretrained": false,
+  "dis_lambda": 0.0,
+  "random_labels": true
+ },
+ "test_acc": 0.0995,
+ "train_acc": 0.99994,
+ "gen_gap": 0.90044,
+ "minutes": 12.401542095343272,
+ "device": "cuda"
+}
