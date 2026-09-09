@@ -3,7 +3,8 @@
 Code and measurement records for
 
 > Sushovan Majhi. *Certified Topological Interaction in Neural Representations:
-> Class Disentanglement Is Mostly Pairwise.* 2026. (arXiv identifier to follow.)
+> Class Disentanglement Is Mostly Pairwise.* 2026.
+> [arXiv:2609.08561](https://arxiv.org/abs/2609.08561)
 
 The paper measures class disentanglement in trained networks with the
 Intersection Euler Characteristic Profile of Kawamura, Majhi and Mitra
